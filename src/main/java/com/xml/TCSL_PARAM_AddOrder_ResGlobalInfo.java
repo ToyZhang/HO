@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlType(propOrder = {"hotelReservationIDs","interFaceSendID","orderType","isFlashLive","depositAmount"})
 public class TCSL_PARAM_AddOrder_ResGlobalInfo {
-   private TCSL_PARAM_AddOrder_HotelReservationIDs hotelReservationIDs;
+   private TCSL_PARAM_HotelReservationIDs hotelReservationIDs;
    private String interFaceSendID;
    private String orderType;
    private String isFlashLive;
@@ -17,7 +17,7 @@ public class TCSL_PARAM_AddOrder_ResGlobalInfo {
     public TCSL_PARAM_AddOrder_ResGlobalInfo() {
     }
 
-    public TCSL_PARAM_AddOrder_ResGlobalInfo(TCSL_PARAM_AddOrder_HotelReservationIDs hotelReservationIDs, String interFaceSendID, String orderType, String isFlashLive, String depositAmount) {
+    public TCSL_PARAM_AddOrder_ResGlobalInfo(TCSL_PARAM_HotelReservationIDs hotelReservationIDs, String interFaceSendID, String orderType, String isFlashLive, String depositAmount) {
         this.hotelReservationIDs = hotelReservationIDs;
         this.interFaceSendID = interFaceSendID;
         this.orderType = orderType;
@@ -25,11 +25,11 @@ public class TCSL_PARAM_AddOrder_ResGlobalInfo {
         this.depositAmount = depositAmount;
     }
     @XmlElement(name = "HotelReservationIDs")
-    public TCSL_PARAM_AddOrder_HotelReservationIDs getHotelReservationIDs() {
+    public TCSL_PARAM_HotelReservationIDs getHotelReservationIDs() {
         return hotelReservationIDs;
     }
 
-    public void setHotelReservationIDs(TCSL_PARAM_AddOrder_HotelReservationIDs hotelReservationIDs) {
+    public void setHotelReservationIDs(TCSL_PARAM_HotelReservationIDs hotelReservationIDs) {
         this.hotelReservationIDs = hotelReservationIDs;
     }
     @XmlElement(name = "InterFaceSendID")

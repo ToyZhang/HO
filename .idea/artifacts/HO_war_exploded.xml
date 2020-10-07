@@ -12,14 +12,15 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.4" />
@@ -56,41 +57,53 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
           <element id="library" level="project" name="Maven: org.apache.axis2:axis2:1.3" />
-          <element id="library" level="project" name="Maven: org.apache.axis2:axis2-adb:1.5.1" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.0.1" />
-          <element id="library" level="project" name="Maven: org.apache.ws.commons.axiom:axiom-dom:1.2.8" />
-          <element id="library" level="project" name="Maven: javax.mail:mail:1.4" />
-          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
-          <element id="library" level="project" name="Maven: xalan:xalan:2.7.0" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.4" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1" />
-          <element id="library" level="project" name="Maven: org.apache.axis2:axis2-kernel:1.5.1" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:1.1.2" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1" />
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.3" />
-          <element id="library" level="project" name="Maven: org.apache.ws.commons.schema:XmlSchema:1.4.3" />
-          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:2.0.4" />
-          <element id="library" level="project" name="Maven: org.apache.woden:woden-api:1.0M8" />
-          <element id="library" level="project" name="Maven: org.apache.ant:ant:1.7.0" />
-          <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.7.0" />
-          <element id="library" level="project" name="Maven: xerces:xmlParserAPIs:2.6.0" />
-          <element id="library" level="project" name="Maven: org.apache.woden:woden-impl-dom:1.0M8" />
-          <element id="library" level="project" name="Maven: org.apache.axis2:axis2-transport-http:1.5.1" />
-          <element id="library" level="project" name="Maven: org.apache.axis2:axis2-transport-local:1.5.1" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
-          <element id="library" level="project" name="Maven: org.apache.axis2:org.apache.axis2.osgi:1.5.1" />
           <element id="library" level="project" name="Maven: org.apache.ws.commons.axiom:axiom-impl:1.2.14" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.1.4" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1" />
           <element id="library" level="project" name="Maven: org.apache.ws.commons.axiom:axiom-api:1.2.14" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: org.apache.james:apache-mime4j-core:0.7.2" />
           <element id="library" level="project" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.axiom-api:1.2.13_2" />
-          <element id="library" level="project" name="Maven: org.apache.axiom:com.springsource.org.apache.axiom:1.2.5" />
           <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
-          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.0.3" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.10" />
+          <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-xml:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-soap:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-wsdl:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:3.1.10" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http-jetty:3.1.10" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-continuation:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-extension-providers:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.10" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-simple:3.1.10" />
+          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.13" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.2" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
